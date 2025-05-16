@@ -1,9 +1,4 @@
-Данный проект автоматически генерирует вопросы на основе объемного текста на английском языке. 
-
-Функционал:
-- Личный кабинет 
-
-<p align="center"><img src=img/logo.png width=450px></p>
+<p align="center"><img src=logo.jpeg width=450px></p>
 
 <p align="center"><b><b>AIMovieMind</b></b> - сайт для генерации вопросов по транскрипции фильма/сериала/подкаста. Оно помогает пользователям лучше понимать и анализировать информацию, предлагая вопросы для проверки владения материалом после его изучения.</p>
 
@@ -48,37 +43,14 @@
 
 ## Обучение модели
 
-<p align="center"><a href="https://www.kaggle.com/datasets/nikitabakutov/iceq-dataset">
-  <img src="https://img.shields.io/badge/Kaggle_Dataset-ICEQ-20BEFF?style=for-the-badge&logo=databricks&logoColor=white" alt="Dataset">
-</a></p>
 
-В рамках проекта была дообучена языковая модель [t-tech/T-lite-it-1.0](https://huggingface.co/t-tech/T-lite-it-1.0) на генерацию вопросов по фрагментам текста
+В рамках проекта была дообучена языковая модель [bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) на генерацию вопросов по фрагментам текста
 
 ## Возможности
 - Обработка длинных текстов
 - Генерация вопросов на основе содержимого
+- Поиск устойчивых выражений, фразовых глаголов, жаргонов
 
-## Установка
-
-1. Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/phantom2059/ICEQ.git
-   ```
-2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Использование
-Перейдите в папку ```src```
-```bash
-cd src
-```
-Создайте файл ```.env``` и добавьте в него свой ключ DeepSeek API
-
-```
-DEEPSEEK_API_KEY=<Your API key>
-```
 
 ### Python интерфейс
 
