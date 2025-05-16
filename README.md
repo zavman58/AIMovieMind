@@ -90,26 +90,25 @@ questions = generator.generate(text, 10)
 
 ```json
 {
-   "question": "Кто является автором романа «Евгений Онегин»?",
-   "answers": [
-      {
-         "answer": "Александр Пушкин",
-         "is_correct": true
-      },
-      {
-         "answer": "Лев Толстой",
-         "is_correct": false
-      },
-      {
-         "answer": "Фёдор Достоевский",
-         "is_correct": false
-      },
-      {
-         "answer": "Николай Гоголь",
-         "is_correct": false
-      }
-   ],
-   "explanation": "Роман в стихах «Евгений Онегин» написан Александром Сергеевичем Пушкиным и является одним из ключевых произведений русской литературы."
+'question': 'Кто является автором романа «Война и мир»?',
+'answers': [
+            {
+              'answer': 'Александр Пушкин',
+              'is_correct': false
+            },
+            {
+              'answer': 'Лев Толстой',
+              'is_correct': true
+            },
+            {
+              'answer': 'Фёдор Достоевский',
+              'is_correct': false
+            },
+            {
+              'answer': 'Николай Гоголь',
+              'is_correct': false
+            }
+          ]
 }
 ```
 
@@ -118,13 +117,6 @@ questions = generator.generate(text, 10)
    ```bash
    python app.py
    ```
-2. Перейдите на запущенный локальный сервер ```http://127.0.0.1:8080/```
-<p align="center">
-  <img src="img/web1.png" width="45%">
-  <img src="img/web2.png" width="45%">
-</p>
+2. Перейдите на запущенный локальный сервер (пример ```http://127.0.0.1:8080/```)
 
 
-## Авторы
-- [Сергей Катцын](https://github.com/phantom2059)
-- [Никита Бакутов](https://github.com/droyti46)
