@@ -88,7 +88,7 @@ questions = generator.generate(text, 10)
 
 ```QuestionsGenerator.generate(text: str, questions_num: int) -> list[dict]``` возвращает список со словарями. Каждый словарь представляет из себя описание вопроса. Пример словаря:
 
-```json
+```
 {
 'question': 'Кто является автором романа «Война и мир»?',
 'answers': [
