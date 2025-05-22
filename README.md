@@ -1,4 +1,4 @@
-<p align="center"><img src=logo.png width=450px></p>
+<p align="center"><img src=img/logo.png width=450px></p>
 
 <p align="center"><b><b>AIMovieMind</b></b> - сайт для генерации вопросов по транскрипции фильма/сериала/подкаста. Оно помогает пользователям лучше понимать и анализировать информацию, предлагая вопросы для проверки владения материалом после его изучения.</p>
 
@@ -34,10 +34,10 @@
 
 1. Текст по абзацам разбивается на ```чанки```. Чанки фильтруются и векторизуются.
 
-<p align="center"><img src=chunk_split.png width=400px></p>
+<p align="center"><img src=img/chunk_split.png width=400px></p>
 
 2. Эмбеддинги чанков кластеризуется на ```количество_чанков * 0.01``` кластеров. Из каждого кластера берётся ближайший к центру кластера объект.
-<p align="center"><img src=clustering.png width=400px></p>
+<p align="center"><img src=img/clustering.png width=400px></p>
 
 3. Центральные объекты каждого кластера передаются на вход ```LLM```.
 
