@@ -115,7 +115,7 @@ questions = generator.generate(text, 10)
 ### Графический Web интерфейс
 1. Запустите сервер
    ```bash
-   python app.py
+   streamlit run app.py
    ```
 2. Перейдите на запущенный локальный сервер (пример ```http://127.0.0.1:8080/```)
 
