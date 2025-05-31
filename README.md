@@ -55,7 +55,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone [https://github.com/zavman58/AIMovieMind.git]
+   git clone https://github.com/zavman58/AIMovieMind.git
    ```
 2. Установите зависимости:
    ```bash
